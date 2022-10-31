@@ -1,9 +1,10 @@
 import React from "react";
-
+import './portrait.jpg';
 
 function Profile(){
     return (<div>
-        <h1>hello</h1>
+        <img id="profile_img" src={require("./portrait.jpg")} alt="profile" />
+        <p>chibuzor ihueze</p>
         </div>
     );
 }
