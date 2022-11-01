@@ -51,3 +51,20 @@ a{
   font-weight: 500;
 
 }
+
+/* styles for slack and github icons*/
+
+.icon{
+  margin-top: 60px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.slack , .github{
+  width: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+.github{
+  margin-left: 16px;
+}

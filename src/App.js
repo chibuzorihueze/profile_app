@@ -2,6 +2,7 @@ import React from "react";
 import Profile from "./components/profile";
 import Button from "./components/button";
 import content from "./components/content";
+import Icon from "./components/icon";
 
 //create button function
 function createButton(title){
@@ -17,7 +18,7 @@ function App() {
     <div>
     <Profile/>
     {content.map(createButton)}
-    
+    <Icon/>
     </div>
   );
 }
