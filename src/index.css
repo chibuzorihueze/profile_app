@@ -32,7 +32,7 @@ p{
 }
 /*styling for button components*/
 
-a{
+.button{
   text-decoration: none;
   color: #101828;
   background-color: #eaecf0;
@@ -43,7 +43,7 @@ a{
   padding-top: 8px;
   line-height: 28px;
   text-align: center;
-  width: 70%;
+  width: 60%;
   height: 50px;
   border: 1px solid #eaecf0;
   border-radius: 6px;
@@ -56,7 +56,7 @@ a{
 
 .icon{
   margin-top: 60px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   text-align: center;
 }
 
@@ -68,3 +68,28 @@ a{
 .github{
   margin-left: 16px;
 }
+
+/*styling for footer*/
+
+
+.footerContainer{
+ display: flex;
+ justify-content: space-between;
+ width: 70%;
+ margin-right: auto;
+ margin-left: auto;
+ cursor: pointer;
+}
+.hng{
+  font-weight: normal;
+  font-size: 14px;
+  color: #667085;
+  cursor: pointer;
+}
+.ingresive{
+  width: 100px;
+  cursor: pointer;
+  
+}
+
+

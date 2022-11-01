@@ -3,6 +3,7 @@ import Profile from "./components/profile";
 import Button from "./components/button";
 import content from "./components/content";
 import Icon from "./components/icon";
+import Footer from "./components/footer";
 
 //create button function
 function createButton(title){
@@ -19,6 +20,7 @@ function App() {
     <Profile/>
     {content.map(createButton)}
     <Icon/>
+    <Footer/>
     </div>
   );
 }
