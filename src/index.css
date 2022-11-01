@@ -30,6 +30,10 @@ p{
   text-align: center;
   margin-bottom: 50px;
 }
+#slack{
+  display: none;
+}
+
 /*styling for button components*/
 
 .button{
@@ -78,13 +82,11 @@ p{
  width: 70%;
  margin-right: auto;
  margin-left: auto;
- cursor: pointer;
 }
 .hng{
   font-weight: normal;
   font-size: 14px;
   color: #667085;
-  cursor: pointer;
 }
 .ingresive{
   width: 100px;
