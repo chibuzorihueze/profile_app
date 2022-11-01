@@ -1,32 +1,39 @@
 const content =[
 
     {
-        id: 1,
-        linkName:"Twitter Link"
+        id: "twitter",
+        name:"Twitter Link",
+        link:"https://twitter.com"
+    },
+
+    {   id:"btn_zuri",
+        name:"Zuri Team",
+        link:"https://training.zuri.team"
     },
 
     {
-        id: 2,
-        linkName:"Zuri Team"
+        id: "books",
+        name:"Zuri Books",
+        link: "http://books.zuri.team"
     },
 
     {
-        id: 3,
-        linkName:"Zuri Books"
+        id: "book_python",
+        name:"Python Books",
+        link:"https://books.zuri.team"
     },
 
     {
-        id: 4,
-        linkName:"Python Books"
+        id: "pitch",
+        name:"Background Check for Coders",
+        link:"https://background.zuri.team"
     },
 
     {
-        id: 5,
-        linkName:"Background Check for Coders"
+        id: "book_design",
+        name:"Design Books",
+        link:"https://background.zuri.team"
     },
+];
 
-    {
-        id: 6,
-        linkName:"Design Books"
-    },
-]
+export default content;

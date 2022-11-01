@@ -1,9 +1,9 @@
 import React from "react";
 
-function Button(){
+function Button(props){
     return(
         <div>
-            <a id="btn_zuri" href="https://training.zuri.team">Zuri Team</a>
+            <a id={props.id} href={props.link}>{props.name}</a>
         </div>
     );
 }
