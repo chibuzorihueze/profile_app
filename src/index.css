@@ -8,20 +8,46 @@
 
 body{
   background-color: #f4f5f7;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
+  font-family: inter;
 }
 
+/*styling for profile component*/
 #profile_img{
   height: 88px;
   width: 88px;
   border-radius: 50%;
-  margin-top:10px ;
+  margin-top:40px ;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
-#p{
+p{
   font-family: inter;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+/*styling for button components*/
+
+a{
+  text-decoration: none;
+  color: #101828;
+  background-color: #eaecf0;
+  margin-top:10px ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8px;
+  line-height: 28px;
+  text-align: center;
+  width: 70%;
+  height: 50px;
+  border: 1px solid #eaecf0;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 500;
+
 }
