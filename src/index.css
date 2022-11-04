@@ -24,7 +24,7 @@ body{
   margin-right: auto;
 
 }
-p{
+.profile_name{
   font-family: inter;
   font-weight: 700;
   font-size: 20px;
@@ -98,17 +98,115 @@ p{
 
 /* contact me/ form session*/
 
+.contact_container{
+  margin: 0 auto;
+  width: 50%;
+  
+  
+}
+
+.heading{
+  margin-top: 300px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 20px;
+}
+.sub_heading{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 40px;
+  color: #475467;
+}
+
 .name-container{
   display: flex;
   
 }
+
+#first_name{
+  width: 300px;
+  padding: 10px;
+  margin-top: 10px;
+  
+}
+
 .lastname_container{
   margin-left: 60px;
+  margin-bottom: 20px;
 }
-#firstname{
+
+#last_name{
   width: 300px;
-  padding: 2px;
+  width: 300px;
+  padding: 10px;
+  margin-top: 10px;
 }
-#lastname{
-  width: 300px;
+
+#email{
+  width: 660px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.email_container{
+  margin-bottom: 20px;
+}
+#message{
+  width: 660px;
+  margin-top: 10px;
+  padding: 10px;
+}
+input , textarea{
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+}
+::placeholder{
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+.label_text{
+  color: #344054;
+}
+textarea{
+  overflow: hidden;
+}
+
+.checkbox_container{
+  display: flex;
+  padding-top: 20px;
+}
+.checkbox_text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475467;
+  margin: 8px;
+}
+.checkbox{
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+}
+
+#btn_submit{
+  text-decoration: none;
+  color: #fff;
+  background-color: #1570EF;;
+  margin-bottom: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8px;
+  line-height: 28px;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #eaecf0;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
 }

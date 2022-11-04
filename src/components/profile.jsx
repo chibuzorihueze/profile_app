@@ -4,7 +4,7 @@ import './portrait.jpg';
 function Profile(){
     return (<div>
         <img id="profile_img" src={require("./portrait.jpg")} alt="profile" />
-        <p>Krisykord</p>
+        <p className="profile_name">Krisykord</p>
         <p id="slack">chibuzor christian ihueze</p>
         </div>
     );
