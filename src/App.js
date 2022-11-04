@@ -4,6 +4,7 @@ import Button from "./components/button";
 import content from "./components/content";
 import Icon from "./components/icon";
 import Footer from "./components/footer";
+import Contact from "./components/contact";
 
 //create button function
 function createButton(title){
@@ -17,10 +18,11 @@ function createButton(title){
 function App() {
   return (
     <div>
-    <Profile/>
+    <Profile />
     {content.map(createButton)}
-    <Icon/>
-    <Footer/>
+    <Icon />
+    <Footer />
+    <Contact />
     </div>
   );
 }
