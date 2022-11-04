@@ -34,6 +34,10 @@ const content =[
         name:"Design Books",
         link:"https://background.zuri.team"
     },
+    {
+        id: "contact",
+        name:"Contact",
+    }
 ];
 
 export default content;
