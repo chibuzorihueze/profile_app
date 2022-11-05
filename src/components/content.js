@@ -37,6 +37,7 @@ const content =[
     {
         id: "contact",
         name:"Contact",
+        link:"/contact"
     }
 ];
 
